@@ -14,8 +14,8 @@ def buat_password(daftar_huruf, jumlah_kombinasi, jumlah_kata, simbol):
 
 def load_word_list(pw_generator):
     with open(pw_generator, 'r') as file:
-        words = file.readlines()
-    return words
+        kata = file.readlines()
+    return kata
 
 daftar_huruf = load_word_list('words.txt')
 
