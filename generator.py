@@ -26,10 +26,8 @@ while True:
 
     if (jumlah_kombinasi < 1) or (jumlah_kata < 1):
         print("Input tidak boleh kurang dari satu!")
-        break
     elif simbol != '-' and simbol != '_' :
         print("Masukan simbol dengan benar!")
-        break
     else:
         break
 
